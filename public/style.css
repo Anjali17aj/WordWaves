@@ -1,0 +1,111 @@
+body {
+    
+    background: linear-gradient(145deg, #ffffff, #f6fbfd, #9ad0e7, #213b6f);
+   
+    min-height: 100vh;
+}
+
+h1 {
+    color: rgb(7, 77, 151);
+    text-align: center;
+    
+}
+
+h2 {
+    color: rgb(7, 77, 151);
+    text-align: center;
+    
+}
+
+.post-clr {
+    color: rgb(84, 13, 5);
+    text-align: center;
+    
+}
+
+.user{
+    font-style: italic;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-1 a{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1px 1px 1px 1px;
+    text-decoration: none;
+   
+}
+
+  
+  /* Hover effect for the button */
+  .button-1:hover {
+    background-image: linear-gradient(#B384C9, #391F5B 50%);
+  }
+  
+
+  /* css */
+  body {
+    margin-left: 90px;
+    background-color: rgb(249, 253, 254);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* NewChat Button 1 -CSS */
+.button-1 {
+    background-image: linear-gradient(#42A1EC, #0070C9);
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.47059;
+    overflow: visible;
+    padding: 5px 14px;
+    text-align: center;
+  }
+
+.button-1:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.button-1:hover {
+    background-image: linear-gradient(#B384C9, #391F5B 50%);
+  }
+
+.button-1:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  outline: none;
+}
+
+.button-1:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
+
+
+
+.chat {
+    background-color: rgb(230, 241, 251);
+    padding: 20px;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+
+.msg{
+    background-color: rgb(71, 130, 217);
+    color: rgb(240, 240, 249);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+
+
