@@ -31,7 +31,9 @@ let posts = [
         content : " Adulthood brings responsibilities and challenges, but also the freedom to make choices. We pursue careers, build families, and chase our dreams. Life becomes a delicate balance of work and play. "
     },
 ];
-
+app.get("/", (req, res) => {
+    res.render("index.ejs", {posts});
+});
 
 app.get("/posts", (req, res) => {
     res.render("index.ejs", {posts});
