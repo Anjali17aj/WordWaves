@@ -16,17 +16,17 @@ app.use(express.static(path.join(__dirname, "public")));
 
 let posts = [
     { 
-        id: 1,
+        id: uuidv4(),
         username : "Anjalik17",
         content : "Once upon a time in a quaint little garden, there lived two flowers that stood out among the rest - a radiant sunflower named Sunny and a delicate rose named Rosie. Despite their differences, they were the best of friends.Sunny was known for his tall, cheerful face that always followed the sun across the sky. Rosie was admired for her soft. She was known for her elegance and grace."
     },
     {
-        id:2,
+        id:uuidv4(),
         username : "AshChiky",
         content: " Life is a journey, a remarkable adventure filled with moments of joy, sorrow, and everything in between. It begins with a single breath, and from that moment onward, we embark on a path of discovery."
     },
     {
-        id:3,
+        id:uuidv4(),
         username : "AnitaR",
         content : " Adulthood brings responsibilities and challenges, but also the freedom to make choices. We pursue careers, build families, and chase our dreams. Life becomes a delicate balance of work and play. "
     },
