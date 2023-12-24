@@ -32,7 +32,7 @@ let posts = [
     },
 ];
 app.get("/", (req, res) => {
-    res.render("index.ejs", {posts});
+    res.redirect("/posts");
 });
 
 app.get("/posts", (req, res) => {
