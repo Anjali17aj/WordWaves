@@ -15,10 +15,10 @@
              <h3 class="user"> @<%= post.username %> </h3>
              <h4 class="content"><%= post.content %></h4>
              <br>
-             <!-- <button class="button-1" style="visibility: hidden;" role="button"><a href="/posts/<%=post.id%>">See in Detail</a></button>
+             <button class="button-1" role="button"><a href="/posts/<%=post.id%>">See in Detail</a></button>
              <br>
-             <button class="button-1" style="visibility: hidden;" role="button"><a href="/posts/<%=post.id%>/edit">Edit Post</a></button> 
-             <br/> -->
+             <button class="button-1" role="button"><a href="/posts/<%=post.id%>/edit">Edit Post</a></button> 
+             <br/>
              <br/>
              <form method="post" action="/posts/<%=post.id%>?_method=DELETE">    
                 <button class="button-1" role="button">Delete Post</button>
